@@ -39,6 +39,24 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Swagger": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

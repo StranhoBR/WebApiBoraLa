@@ -1,9 +1,8 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace ApplicationServicesSO.Data.Dtos
+namespace ApplicationServicesSO.Models
 {
-    public class RecoverEntitiesDto
+    public class SalesModel
     {
         [Key]
         [Required]
@@ -12,6 +11,9 @@ namespace ApplicationServicesSO.Data.Dtos
         public string Code { get; set; }
         public string Name { get; set; }
         public string ReportName { get; set; }
+        public string SoldtoCode { get; set; }
+        public string SoldtoName { get; set; }
+        public string SoldtoReportName { get; set; }
         
     }
 }

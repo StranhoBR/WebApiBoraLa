@@ -8,9 +8,9 @@ namespace ApplicationServicesSO.Profiles
     {
         public SalesOrderProfile()
         {
-            CreateMap<AddEntitiesDto, SalesOrderModel>();
-            CreateMap<SalesOrderModel, RecoverEntitiesDto>();
-            CreateMap<UpdateEntitiesDto, SalesOrderModel>();
+            CreateMap<AddEntitiesDto, WebApiBoraLa>();
+            CreateMap<WebApiBoraLa, RecoverEntitiesDto>();
+            CreateMap<UpdateEntitiesDto, WebApiBoraLa>();
 
         }
     }
