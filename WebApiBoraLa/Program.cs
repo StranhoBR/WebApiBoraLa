@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -7,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebApiBoraLa
+namespace ApplicationServicesSO
 {
     public class Program
     {
@@ -22,5 +23,6 @@ namespace WebApiBoraLa
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
     }
 }
